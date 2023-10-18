@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Header Section Start Here */
+.image img{
+    width: 200px;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+}
+.menu ul li{
+    padding: 15px;
+}
+.menu ul li a:hover{
+    background-color: blue;
+    border-radius: 20px;
+}
+/* Header Section End Here */
+
+
+/* Hero Sectin Start Here */
+.hero-section{
+    background: url(img/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section .image{
+    background: linear-gradient(to right,#4f4f4f, #000);
+    width: 300px;
+    border-left: 7px solid #0076ec;
+}
+.hero-section .image img{
+    width: 150px;
+}
+.hero-section .btn{
+    width: 200px;
+    border-radius: 0%;
+}
+.hero-section .btn-1:hover{
+    background-color: rgb(236, 168, 79);
+    border-radius: 10px;
+    padding: 8px 13px;
+    transition: .5s;
+}
+/* Hero Sectin End Here */
+
+/* Fashion Section Start Here */
+.fashion-section{
+    padding-top: 200px;
+    padding-bottom: 70px;
+    background-color: #0c0d14;
+}
+.fashion-section .btn{
+    width: 200px;
+    border-radius: 0%;
+}
+.fashion-section .fs-4{
+    border-radius: 50%;
+}
+/* Fashion Section Start Here */
+
+
+/* Favorite Game Sectin Start Here */
+.favorite-game {
+    background-color: #0c0d14;
+}
+.favorite-game .image-btn{
+    position: relative;
+}
+.favorite-game .image-btn img{
+    width: 100%;
+}
+.favorite-game .btn{
+    width: 41%;
+    height: 35px;
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+.favorite-game .btn h2{
+    font-size: 14px;
+}
+.with{
+    background-color: red;
+    width: 500px;
+}
+/* Favorite Game Sectin End Here */
+
+
+/* Double Hero Section Start Here  */
+.double-hero{
+    margin-top: -8px;
+}
+.double-hero .image img{
+    width: 100%;
+}
+/* Double Hero Section End Here  */
+
+
+/* Choose Play Fashion Section Start Here */
+.choose-play-fashion{
+    background-color: #000;
+}
+.choose-play-fashion .image img{
+    width: 100%;
+}
+.choose-play-fashion .btn{
+    width: 26%;
+    height: 40px;
+    border-radius: 0%;
+}
+/* Choose Play Fashion Section Endo Here */
+
+
+/* Games On Play Fashion Section Start Here */
+.games-play-fashion{
+    background-color: #000;
+}
+.games-play-fashion .image img{
+    width: 100%;
+}
+.games-play-fashion .btn{
+    width: 26%;
+    height: 40px;
+    border-radius: 0%;
+}
+/* Games On Play Fashion Section End Here */
+
+
+/* Articles Section Start Here */
+.articles{
+    background-color: #000;
+}
+.articles .image img{
+    width: 100%;
+}
+.articles .btn{
+    width: 35%;
+    height: 40px;
+    background: linear-gradient(to right, #541a22, #000);
+    border-left: 5px solid #0076ec;
+}
+.articles .btn1{
+    width: 32%;
+    height: 40px;
+}
+.articles h2:hover{
+    background-color: rgb(5, 85, 85);
+    border-radius: 10px;
+    padding: 5px;
+    transition: .3s;
+}
+.articles .width{
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, #fff, #000);
+}
+/* Articles Section End Here */
+
+
+/* Asked questions Section Start Here */
+.questions{
+    background-color: #000;
+}
+.questions .width{
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, red, yellow, red);
+}
+.questions .text{
+    float: left;
+}
+/* Asked questions Section End Here */
+
+
+/* Footer Seciton Start Here */
+.footer{
+    background-color: #000;
+}
+.footer .text li:hover{
+    color: blue;
+    transition: .4s;
+} 
+.footer i:hover{
+    color: rgb(185, 66, 66);
+}
+/* Footer Seciton End Here */
